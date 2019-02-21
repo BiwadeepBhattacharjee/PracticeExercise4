@@ -16,7 +16,7 @@ public class CountOfACharacterTest {
     }
 
     @org.junit.Test
-    public void occurancesOfACharacter() {
+    public void testOccurancesOfACharacter() {
         int expected = 2;
         int actual = count.occurancesOfACharacter('B', "BiswadeepBhattacharjee");
         assertEquals(expected, actual);
@@ -24,7 +24,7 @@ public class CountOfACharacterTest {
     }
 
     @org.junit.Test
-    public void occurancesOfACharacterFailure() {
+    public void testOccurancesOfACharacterFailure() {
         int expected = 4;
         int actual = count.occurancesOfACharacter('B', "BiswadeepBhattacharjee");
         assertNotEquals(expected, actual);

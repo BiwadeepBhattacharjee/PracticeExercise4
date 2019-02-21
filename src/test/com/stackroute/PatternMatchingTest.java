@@ -20,7 +20,7 @@ public class PatternMatchingTest {
     }
 
     @Test
-    public void patternMatchingMethod() {
+    public void testPatternMatchingMethod() {
         boolean expected = true;
         boolean actual = patternMatching.patternMatchingMethod("Harry is here");
         assertEquals(expected, actual);
@@ -28,7 +28,7 @@ public class PatternMatchingTest {
     }
 
     @Test
-    public void patternMatchingMethodFailure() {
+    public void testPatternMatchingMethodFailure() {
         boolean expected = true;
         boolean actual = patternMatching.patternMatchingMethod("Henry is here");
         assertNotEquals(expected, actual);

@@ -20,7 +20,7 @@ public class CountOfOccurancesTest {
     }
 
     @Test
-    public void countNumberOfOccurances() {
+    public void testCountNumberOfOccurances() {
         int expected = 3;
         int actual = countOfOccurances.countNumberOfOccurances("She sells sea shells on the sea shore");
         assertEquals(expected, actual);
@@ -28,7 +28,7 @@ public class CountOfOccurancesTest {
     }
 
     @Test
-    public void countNumberOfOccurancesFailure() {
+    public void testCountNumberOfOccurancesFailure() {
         int expected = 2;
         int actual = countOfOccurances.countNumberOfOccurances("She sells sea shells on the sea shore");
         assertNotEquals(expected, actual);

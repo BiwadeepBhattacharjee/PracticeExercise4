@@ -22,7 +22,7 @@ public class AlphabeticalOrderTest {
     }
 
     @Test
-    public void sortInAlphabeticalOrder() {
+    public void testSortInAlphabeticalOrder() {
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("roger");
         arrayList.add("federer");
@@ -44,7 +44,7 @@ public class AlphabeticalOrderTest {
     }
 
     @Test
-    public void sortInAlphabeticalOrderFailure() {
+    public void testSortInAlphabeticalOrderFailure() {
         ArrayList<String> arrayList = new ArrayList<>();
         arrayList.add("roger");
         arrayList.add("federer");

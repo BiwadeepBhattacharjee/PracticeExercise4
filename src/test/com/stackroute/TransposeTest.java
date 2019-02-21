@@ -20,13 +20,13 @@ public class TransposeTest {
     }
 
     @Test
-    public void transposeWords() {
+    public void testTransposeWords() {
         assertEquals("a kciuq nworb xof spmuj revo eht yzal god", transpose.transposeWords("a quick brown fox jumps over the lazy dog"));
         assertNotNull(transpose.transposeWords("a quick brown fox jumps over the lazy dog"));
     }
 
     @Test
-    public void transposeWordsFailure() {
+    public void testTransposeWordsFailure() {
         assertNotEquals("a kciuq nworb fox spmuj revo eht yzal god", transpose.transposeWords("a quick brown fox jumps over the lazy dog"));
         assertNotNull(transpose.transposeWords("a quick brown fox jumps over the lazy dog"));
     }

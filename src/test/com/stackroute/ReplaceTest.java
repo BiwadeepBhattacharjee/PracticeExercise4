@@ -20,7 +20,7 @@ public class ReplaceTest {
     }
 
     @Test
-    public void replaceCharacter() {
+    public void testReplaceCharacter() {
         String expected = "faity fry";
         String actual = rep.replaceCharacter("daily dry");
         assertEquals(expected, actual);
@@ -28,7 +28,7 @@ public class ReplaceTest {
     }
 
     @Test
-    public void replaceCharacterFailure() {
+    public void testReplaceCharacterFailure() {
         String expected = "ddll";
         String actual = rep.replaceCharacter("ddll");
         assertNotEquals(expected, actual);
